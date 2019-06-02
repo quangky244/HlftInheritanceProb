@@ -1,6 +1,6 @@
 public class Account {
     private int accountNumber;
-    private double balance;
+    protected double balance;
     private Customer customer;  // holds only one owner of account
     private static int cntAccountNumber = 100000;
 
